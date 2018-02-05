@@ -1,0 +1,5 @@
+Bundle-Name: my-npm-angular-portlet
+Bundle-SymbolicName: my.npm.angular.portlet
+Bundle-Version: 1.0.0
+Export-Package: my.npm.angular.portlet.constants
+Web-ContextPath: /my-npm-angular-portlet
