@@ -1,7 +1,7 @@
 define(["require", "exports", "@angular/core"], function (require, exports, core_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    var DynamicLoader = /** @class */ (function () {
+    var DynamicLoader = (function () {
         function DynamicLoader(injector) {
             this.injector = injector;
         }
