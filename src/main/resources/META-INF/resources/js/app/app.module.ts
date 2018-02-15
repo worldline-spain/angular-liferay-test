@@ -4,8 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import 'chart.js/dist/Chart.min'
 
-//import  'chart.js/src/chart';
-
 
 import { InputTextModule, ButtonModule, RadioButtonModule,ChartModule } from 'primeng-wl/primeng';
 @NgModule({
