@@ -2,15 +2,20 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
+import 'chart.js/dist/Chart.min'
 
-import { InputTextModule, ButtonModule, RadioButtonModule } from 'primeng-wl/primeng';
+//import  'chart.js/src/chart';
+
+
+import { InputTextModule, ButtonModule, RadioButtonModule,ChartModule } from 'primeng-wl/primeng';
 @NgModule({
 	imports: [
 		BrowserModule,
 		InputTextModule,
 		ButtonModule,
 		RadioButtonModule,
-		FormsModule
+		FormsModule,
+		ChartModule
 	],
 	declarations: [AppComponent],
 	entryComponents: [AppComponent],
